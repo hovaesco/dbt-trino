@@ -20,6 +20,11 @@ on:
         description: 'The version number to bump to (ex. 1.2.0, 1.3.0b1)'
         required: true
 
+permissions:
+  pull-requests: write
+  contents: write
+  repository-projects: write
+
 jobs:
   bump:
     runs-on: ubuntu-latest
