@@ -31,8 +31,9 @@ on:
     types: [opened, labeled]
 
 permissions:
-  contents: write
-  pull-requests: read
+  pull-requests: write
+  issues: write
+  repository-projects: write
 
 jobs:
   generate_changelog:
