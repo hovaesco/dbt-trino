@@ -32,7 +32,7 @@ on:
 
 permissions:
   pull-requests: write
-  issues: write
+  contents: write
   repository-projects: write
 
 jobs:
